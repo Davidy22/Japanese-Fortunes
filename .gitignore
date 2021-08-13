@@ -3,3 +3,6 @@
 env
 
 *.dat
+*.u8
+
+process.py
