@@ -38,7 +38,7 @@ then
         echo "Confirmed Linux distribution, configuring fortunes"
         echo ""
         # Set location of fortune's .dat files on Debian/Ubuntu/Linux hosts
-        HOST_FORTUNE_DAT_DIR="/usr/share/games/fortunes"
+        HOST_FORTUNE_DAT_DIR="/usr/share/games/fortune"
         echo "Set fortunes .dat file directory to ${HOST_FORTUNE_DAT_DIR}"
         echo "Configuring custom fortunes..."
         configure_custom_fortunes
